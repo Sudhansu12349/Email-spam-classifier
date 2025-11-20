@@ -71,11 +71,9 @@ Select your repo and app.py
 Deploy instantly
 
  Example Inputs
-
 Spam example:
 
 Congratulations! You have won $5000 gift voucher. Click here to claim.
-
 
 Not spam example:
 
@@ -84,19 +82,21 @@ Please find the meeting agenda attached for tomorrow's session.
  
 Project Files
 
-app.py — Streamlit UI
-train_model.py — Training script
+my_app.py — Streamlit UI
+Email-spam-classifier.ipynb — Training script
 spam_model.pkl — Trained model
 spam_vectorizer.pkl — Saved vectorizer
 requirements.txt — Dependencies
 
 README.md — Project documentation
 
- Conclusion
-
+Conclusion
 This project successfully demonstrates:
 
 Text preprocessing
 NLP feature extraction
 ML classification
 Deploying a real ML app
+
+Live Demo: https://email-spam-classifier-dcctkehr5j8pi8nqtxgnn4.streamlit.app
+
