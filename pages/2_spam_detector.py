@@ -84,10 +84,16 @@ def predict_email(text):
     spam_prob = float(probs[spam_idx])
     ham_prob = float(probs[ham_idx])
 
-    label = "Spam" if spam_prob >= ham_prob else "Not Spam"
+    if spam_prob >= 0.40:
+            result = "🚨 SPAM"
+    elif spam_prob >= 0.25:
+            result = "⚠️ Suspicious Email"
+    else:
+        result = "✅ NOT SPAM"
 
-    return label, spam_prob, ham_prob
+    #label = "Spam" if spam_prob >= ham_prob else "Not Spam"
 
+    return result, spam_prob, ham_prob
 
 
 
@@ -199,4 +205,5 @@ if st.button("Analyze Email", use_container_width=True):
 st.markdown("---")
 st.subheader("📜 Recent Activity")
 st.table(st.session_state.history)
+
 
