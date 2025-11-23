@@ -98,5 +98,5 @@ NLP feature extraction
 ML classification
 Deploying a real ML app
 
-Live Demo: https://email-spam-classifier-dcctkehr5j8pi8nqtxgnn4.streamlit.app
+Live Demo: https://email-spam-classifier-rsycdofa4j2vqguf4bhpqh.streamlit.app
 
