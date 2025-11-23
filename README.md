@@ -82,7 +82,9 @@ Please find the meeting agenda attached for tomorrow's session.
  
 Project Files
 
-my_app.py — Streamlit UI
+home.py — Streamlit UI
+pages folder: 1_dashboard.py
+              2_spam_detector.py
 Email-spam-classifier.ipynb — Training script
 spam_model.pkl — Trained model
 spam_vectorizer.pkl — Saved vectorizer
